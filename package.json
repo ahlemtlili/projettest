@@ -1,0 +1,40 @@
+{
+  "name": "pff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "back": "nodemon server.js",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "ahlemnawress",
+  "license": "ISC",
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.6.0",
+    "@react-pdf-viewer/default-layout": "^3.6.0",
+    "concurrently": "^7.3.0",
+    "react-circular-progressbar": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-app-generator": "^1.0.6",
+    "express-validator": "^6.14.2",
+    "file": "^0.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.5.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "react-router-dom": "^6.3.0",
+    "save": "^2.5.0",
+    "upload": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

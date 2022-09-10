@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Noto+Serif+Display:ital,wght@1,200&family=Rampart+One&family=Zen+Antique&display=swap');
+
+.tips h2,
+.tips h5 {
+  font-family: 'Irish Grover', cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: rgb(14, 55, 109);
+}
+.tips h3 {
+  font-family: 'Irish Grover', cursive;
+  color: black;
+}
+.pagefooter h5 {
+  font-family: 'Irish Grover', cursive;
+}
+.toastHome p {
+  font-family: 'Irish Grover', cursive;
+}
+.toastHome {
+  background-color: burlywood;
+}
